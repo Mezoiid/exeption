@@ -12,6 +12,7 @@ public class Fraction {
         this.denominator = denominator;
     }
 
+    
     public Fraction(double fraction){
             String s = String.valueOf(fraction);
             String[] mas = s.split("\\.");
